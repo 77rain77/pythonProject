@@ -1,0 +1,16 @@
+appium:appActivity: com.qiwu.watch.activity.LauncherActivity
+appium:appPackage: com.qiwu.watch
+appium:connectHardwareKeyboard: true
+appium:deviceName: 1aea4702
+appium:ensureWebviewsHavePages: true
+appium:fullReset: false
+appium:nativeWebScreenshot: true
+appium:newCommandTimeout: 3600
+appium:noReset: false
+automationName: Uiautomator2
+platformName: Android
+resetKeyboard: true
+server: http://127.0.0.1:4723/wd/hub
+skipDeviceInitialization: true
+skipServerInstallation: true
+unicodeKeyboard: true

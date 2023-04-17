@@ -1,0 +1,19 @@
+platformName: Android
+appium:deviceName: 1aea4702
+appium:noReset: False #启动app时不要清除原始的数据，打开此控件之后只会出现一次”始终允许“和一次”允许“，未打开此控件则会出现一次”始终允许“和两次”允许“
+appium:fullReset: False
+#appium:appPackage: com.qiwu.life
+appium:appPackage: com.qiwu.adultwatch
+#appium:appActivity: .ui.activity.MainActivity
+appium:appActivity: com.qiwu.watch.activity.LauncherActivity
+#appium:appActivity: ".ui.activity.LaunchActivity"
+appium:ensureWebviewsHavePages: True
+appium:nativeWebScreenshot: True
+appium:newCommandTimeout: 3600
+appium:connectHardwareKeyboard: True
+unicodeKeyboard: True  # 使用unicodeKeyboard的编码方式来发送字符串
+resetKeyboard: True  # 将键盘给隐藏起来
+server: "http://127.0.0.1:4723/wd/hub"
+automationName: Uiautomator2 #获取toast
+skipServerInstallation: True #避免重复安装server
+skipDeviceInitialization: True
